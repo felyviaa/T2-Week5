@@ -1,0 +1,48 @@
+body {
+    scroll-behavior: smooth;
+    }
+
+    .hero {
+    height: 75vh;
+    background: linear-gradient(135deg, #bd63fd, #7d31f9);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+
+    .menu {
+        background-color: #cdafff;
+    }
+
+    .about {
+        background-color: #ded0f5;
+    }
+
+    .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    }
+
+    .section-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    }
+
+    .card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+    }
+
+    .card-img-top {
+    height: 300px;
+    object-fit: cover;
+    }
+
+    .footer {
+    background-color: #27232e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    }
